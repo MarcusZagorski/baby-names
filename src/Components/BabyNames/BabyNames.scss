@@ -1,0 +1,29 @@
+.list {
+  list-style: none;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4rem;
+  padding: 5.6rem;
+  border-top: 3px solid pink;
+  border-left: 3px solid pink;
+  border-right: 3px solid skyblue;
+  border-bottom: 3px solid skyblue;
+  border-radius: 0.8rem;
+
+  &__boys,
+  &__girls {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.3rem;
+    border-radius: 0.8rem;
+  }
+
+  &__boys {
+    background-color: skyblue;
+  }
+
+  &__girls {
+    background-color: pink;
+  }
+}
