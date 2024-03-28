@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Berkshire+Swash&display=swap");
+
 .list {
   list-style: none;
   width: 90%;
@@ -16,13 +18,27 @@
     padding: 1rem;
     margin: 0.3rem;
     border-radius: 0.8rem;
+    font-weight: 400;
+    font-family: "Athiti", serif;
+    font-size: 1.2rem;
   }
 
   &__boys {
-    background-color: skyblue;
+    background-color: #177245;
+    color: #a2c7b5;
   }
 
   &__girls {
-    background-color: pink;
+    background-color: #b284be;
+    color: #e8daec;
+  }
+
+  &__search {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    height: 2.6rem;
+    width: 13rem;
+    border-radius: 0.6rem;
   }
 }
